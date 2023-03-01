@@ -1,0 +1,78 @@
+
+Passing parameters in instance method:
+
+import java.util.*;
+public class Main
+{
+	public void fsquare(int a)
+	{
+	    
+	    
+	    int result = a*a;
+	    System.out.println(result);
+	}
+	public static void main(String args[])
+	{
+	
+	    
+	    Main b=new Main();
+	    b.fsquare(7);
+	}
+}
+
+
+
+
+Static method:
+
+
+import java.util.*;
+public class Main
+{
+    static void fsquare()
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int result= a*a;
+        System.out.println(result);
+    }
+
+
+	public static void main(String[] args) {
+	{
+	    fsquare();
+	}
+}
+}
+SQUARE OF A NUMBER USING SCANNER:
+
+import java.util.*;
+public class Main
+{
+	public static void main(String args[])
+	{
+	    Scanner sc=new Scanner(System.in);
+	    int a=sc.nextInt();
+	    int result=a*a;
+	    System.out.println(result);
+	}
+}
+
+WITHIN A CLASS PRIVATE:
+public class Main
+{
+	private void display()
+	{
+	    System.out.print("Hi");
+	    
+	}
+
+
+	
+	    public static void main(String args[])
+	    {
+	      Main obj=new Main();
+	      obj.display();
+	    }
+	}
+
